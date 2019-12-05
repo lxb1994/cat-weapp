@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "l-panel": "../../components/panel/index"
+  }
+}

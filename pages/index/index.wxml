@@ -1,0 +1,23 @@
+<view class="page">
+  <l-panel title="基础组件">
+    <l-cell-group noBorder>
+      <l-cell title="Layout 栅格布局" url="/pages/layout/index" isLink></l-cell>
+      <l-cell title="icon 图标" url="/pages/icon/index" isLink></l-cell>
+      <l-cell title="button 按钮" url="/pages/button/index" isLink></l-cell>
+      <l-cell title="panel 面板" url="/pages/panel/index"  isLink></l-cell>
+      <l-cell title="cell 列表" url="/pages/cell/index"  isLink></l-cell>
+      <l-cell title="drawer 抽屉" url="/pages/drawer/index" isLink></l-cell>
+    </l-cell-group>
+  </l-panel>
+  <l-panel title="导航组件">
+    <l-cell-group noBorder>
+      <l-cell title="Tabs 标签页" url="/pages/tab/index" isLink></l-cell>
+    </l-cell-group>
+  </l-panel>
+  <l-panel title="表单组件">
+    <l-cell-group noBorder>
+      <l-cell title="input 输入框" url="/pages/input/index" isLink></l-cell>
+      <l-cell title="checkbox 多选框" url="/pages/checkbox/index" isLink></l-cell>
+    </l-cell-group>
+  </l-panel>
+</view>

@@ -1,0 +1,13 @@
+.demo-icon {
+  text-align: center;
+  font-size: 24rpx;
+  padding: 40rpx 0;
+}
+
+.demo-icon-name {
+  margin-top: 10rpx;
+}
+
+.demo-icon-page {
+  padding-bottom: 60rpx;
+}

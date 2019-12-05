@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-icon": "../../components/icon/index",
+    "l-row": "../../components/row/index",
+    "l-col": "../../components/col/index"
+  }
+}

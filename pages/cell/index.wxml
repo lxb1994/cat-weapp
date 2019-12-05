@@ -1,0 +1,23 @@
+<view class="page demo-cell">
+  <l-panel>
+    <l-cell title="单行列表"></l-cell>
+  </l-panel>
+
+  <l-panel title="列表组">
+    <l-cell-group noBorder>
+      <l-cell title="单行列表"></l-cell>
+      <l-cell title="单行列表" value="内容"></l-cell>
+      <l-cell title="单行列表" label="描述信息" value="内容"></l-cell>
+      <l-cell title="右侧箭头" isLink></l-cell>
+      <l-cell title="跳转首页" isLink url="/pages/index/index"></l-cell>
+      <l-cell title="右侧内容" value="内容" isLink></l-cell>
+      <l-cell title="左侧内容" value="内容" isLink leftValue></l-cell>
+      <l-cell title="开关">
+        <view slot="footer">第二行</view>
+      </l-cell>
+      <l-cell title="表单">
+        <input placeholder="请输入" maxlength="32" />
+      </l-cell>
+    </l-cell-group>
+  </l-panel>
+</view>

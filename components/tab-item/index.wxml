@@ -1,0 +1,4 @@
+<view class="l-class l-tab-item {{scroll ? 'l-tab-item-scroll' : ''}}" bindtap="onChangeKey">
+  <view style="color: {{isActive ? color : ''}};"><slot></slot></view>
+  <view wx:if="{{isActive}}" class="l-tab-item-bar" style="border-color: {{isActive ? color : ''}}"></view>
+</view>

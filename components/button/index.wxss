@@ -1,0 +1,97 @@
+.l-btn {
+  text-align:center;
+  vertical-align:middle;
+  touch-action:manipulation;
+  cursor:pointer;
+  background-image:none;
+  white-space:nowrap;
+  user-select:none;
+  font-size: 28rpx;
+  border-radius: 4rpx;
+  border: 0!important;
+  position:relative;
+  text-decoration:none;
+  height: 72rpx;
+  line-height: 72rpx;
+  color:#333;
+  background:#fff;
+  color:#495060;
+}
+.l-btn::after {
+  border-radius: 0;
+}
+.l-btn-inline {
+  display: inline-block;
+  padding: 0 30rpx
+}
+.l-btn-large {
+  height: 84rpx;
+  line-height: 84rpx;
+}
+.l-btn-small {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.l-btn-primary {
+  background-color: #43a1fc;
+  color: #fff;
+}
+.l-btn-success {
+  background-color: #14bc84;
+  color: #fff;
+}
+.l-btn-warn {
+  background-color: #e6a23c;
+  color: #fff;
+}
+.l-btn-error {
+  background-color: #ed4014;
+  color: #fff;
+}
+.l-btn.l-btn-disabled {
+  color:#bbbec4!important;
+  background:#f7f7f7!important;
+}
+.l-btn-circle {
+  border-radius: 80rpx;
+}
+.l-btn-large.l-btn-circle {
+  border-radius: 88rpx;
+}
+.l-btn-small.l-btn-circle {
+  border-radius: 72rpx;
+}
+.l-btn-whole-line {
+  margin: 0;
+  border-radius: 0!important;
+  box-shadow:none
+}
+.l-btn-hover {
+  opacity: .85;
+}
+.l-btn-loading {
+  opacity: .6;
+}
+.i-btn-loading-inner {
+  display: inline-block;
+  width: 28rpx;
+  height: 28rpx;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border-radius:50%;
+  background: 0 0;
+  margin-right: 24rpx;
+  border-width: 2rpx;
+  border-style: solid;
+  border-color: #fff #fff #fff transparent;
+  animation: roll .7s linear;
+  animation-iteration-count: infinite;
+}
+@keyframes roll {
+  0% {
+    transform: rotate(0)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}

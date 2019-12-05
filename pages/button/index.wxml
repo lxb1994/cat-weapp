@@ -1,0 +1,47 @@
+<view class="demo-layout">
+  <l-panel title="一般用法">
+    <view>
+      <l-button type="default" l-class="demo-button">default</l-button>
+      <l-button type="primary" l-class="demo-button">primary</l-button>
+      <l-button type="success" l-class="demo-button">success</l-button>
+      <l-button type="warn" l-class="demo-button">warn</l-button>
+      <l-button type="error" l-class="demo-button">error</l-button>
+    </view>
+  </l-panel>
+  <l-panel title="行内按钮">
+    <view>
+      <l-button type="default" size="small" inline l-class="demo-button">default</l-button>
+      <l-button type="primary" size="small" inline l-class="demo-button">primary</l-button>
+      <l-button type="success" size="small" inline l-class="demo-button">success</l-button>
+      <l-button type="warn" size="small" inline l-class="demo-button">warn</l-button>
+      <l-button type="error" size="small" inline l-class="demo-button">error</l-button>
+    </view>
+  </l-panel>
+  <l-panel title="不同尺寸">
+    <view>
+      <l-button type="success" size="small" l-class="demo-button">small</l-button>
+      <l-button type="success" size="default" l-class="demo-button">default</l-button>
+      <l-button type="success" size="large" l-class="demo-button">large</l-button>
+    </view>
+  </l-panel>
+  <l-panel title="圆角">
+    <view>
+      <l-button type="primary" size="small" shape="circle" l-class="demo-button">primary</l-button>
+      <l-button type="primary" size="default" shape="circle" l-class="demo-button">primary</l-button>
+      <l-button type="primary" size="large" shape="circle" l-class="demo-button">primary</l-button>
+    </view>
+  </l-panel>
+  <l-panel title="整行">
+    <view>
+      <l-button type="default" wholeLine l-class="demo-button">default</l-button>
+      <l-button type="primary" wholeLine l-class="demo-button">primary</l-button>
+      <l-button type="success" wholeLine l-class="demo-button">success</l-button>
+    </view>
+  </l-panel>
+  <l-panel title="其他">
+    <view>
+      <l-button type="default" disabled l-class="demo-button">disabled</l-button>
+      <l-button type="primary" loading l-class="demo-button">loading</l-button>
+    </view>
+  </l-panel>
+</view>

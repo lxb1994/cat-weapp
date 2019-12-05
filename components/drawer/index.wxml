@@ -1,0 +1,6 @@
+<view class="l-class l-drawer {{show ? 'l-drawer-show' : ''}} {{'l-drawer-' + mode}}">
+  <view class="l-drawer-mask" bindtap="handleCloseMask"></view>
+  <view class="l-drawer-content">
+    <slot></slot>
+  </view>
+</view>

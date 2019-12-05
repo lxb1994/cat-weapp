@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-cell": "../../components/cell/index",
+    "l-cell-group": "../../components/cell-group/index",
+    "l-panel": "../../components/panel/index"
+  }
+}

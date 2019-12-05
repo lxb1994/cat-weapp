@@ -1,0 +1,8 @@
+.demo-layout {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.demo-layout .demo-button {
+  margin: 20rpx 0;
+}

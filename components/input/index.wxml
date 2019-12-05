@@ -1,0 +1,35 @@
+<view class="l-class l-input-container {{ error ? 'input-error' : '' }}">
+  <view class="l-left-icon"><slot name="left-icon"></slot></view>
+  <view wx:if="{{ title }}" class="l-input-title">
+    <view wx:if="{{ required }}" class="l-input-required">*</view>
+    <view>{{ title }}</view>
+  </view>
+  <textarea
+    wx:if="{{ type === 'textarea' }}"
+    disabled="{{ disabled }}"
+    focus="{{ autofocus }}"
+    value="{{ value }}"
+    placeholder="{{ placeholder }}"
+    maxlength="{{ maxlength }}"
+    class="l-textarea"
+    placeholder-class="l-input-placeholder l-placeholder-class"
+    bindinput="handleInputChange"
+    bindfocus="handleInputFocus"
+    bindblur="handleInputBlur"
+  />
+  <input
+    wx:else
+    type="{{ type }}"
+    disabled="{{ disabled }}"
+    focus="{{ autofocus }}"
+    value="{{ value }}"
+    placeholder="{{ placeholder }}"
+    maxlength="{{ maxlength }}"
+    class="l-input"
+    placeholder-class="l-input-placeholder l-placeholder-class"
+    bindinput="handleInputChange"
+    bindfocus="handleInputFocus"
+    bindblur="handleInputBlur"
+  />
+  <view class="l-right-icon"><slot name="right-icon"></slot></view>
+</view>

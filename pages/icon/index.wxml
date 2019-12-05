@@ -1,0 +1,10 @@
+<view class="page demo-icon-page">
+  <l-row gutter="20">
+    <l-col span="8" wx:for="{{list}}" wx:key="{{item}}">
+      <view class="demo-icon">
+        <l-icon type="{{item}}" size="56" />
+        <view class="demo-icon-name">{{item}}</view>
+      </view>
+    </l-col>
+  </l-row>
+</view>

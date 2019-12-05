@@ -1,0 +1,34 @@
+<view class="page">
+  <l-panel title="正常的">
+    <l-tab current="{{key}}" bind:change="onChangeTab">
+      <l-tab-item key="tab1">123</l-tab-item>
+      <l-tab-item key="tab2">123</l-tab-item>
+      <l-tab-item key="tab3">123</l-tab-item>
+      <l-tab-item key="tab4">123</l-tab-item>
+      <l-tab-item key="tab5">123</l-tab-item>
+    </l-tab>
+  </l-panel>
+
+  <l-panel title="字体颜色">
+    <l-tab current="{{key}}" color="green" bind:change="onChangeTab">
+      <l-tab-item key="tab1">123</l-tab-item>
+      <l-tab-item key="tab2">123</l-tab-item>
+      <l-tab-item key="tab3">123</l-tab-item>
+      <l-tab-item key="tab4">123</l-tab-item>
+      <l-tab-item key="tab5">123</l-tab-item>
+    </l-tab>
+  </l-panel>
+
+  <l-panel title="滚动的">
+    <l-tab current="{{key2}}" color="violet" scroll bind:change="onChangeTab2">
+      <l-tab-item key="tab1">tab1哦</l-tab-item>
+      <l-tab-item key="tab2">tab2哦</l-tab-item>
+      <l-tab-item key="tab3">tab3哦</l-tab-item>
+      <l-tab-item key="tab4">tab4哦</l-tab-item>
+      <l-tab-item key="tab5">tab5哦</l-tab-item>
+      <l-tab-item key="tab6">tab6哦</l-tab-item>
+      <l-tab-item key="tab7">tab7哦</l-tab-item>
+      <l-tab-item key="tab8">tab8哦哦哦哦哦</l-tab-item>
+    </l-tab>
+  </l-panel>
+</view>

@@ -1,0 +1,3 @@
+<view class="page demo-cell">
+  <l-checkbox></l-checkbox>
+</view>

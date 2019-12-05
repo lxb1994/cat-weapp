@@ -1,0 +1,37 @@
+<view class="page" style="padding-top: 20rpx;">
+  <l-button bindclick="handleClick" data-mode="left" l-class="demo-button">左侧弹出</l-button>
+  <l-button bindclick="handleClick" data-mode="right" l-class="demo-button">右侧弹出</l-button>
+  <l-button bindclick="handleClick" data-mode="top" l-class="demo-button">顶部弹出</l-button>
+  <l-button bindclick="handleClick" data-mode="bottom" l-class="demo-button">底部弹出</l-button>
+  <l-button bindclick="handleClick" data-mode="noClose" l-class="demo-button">遮罩不关闭</l-button>
+
+  <l-drawer show="{{leftShow}}" mode="left">
+    <view class="demo-drawer-content">
+      <l-button bindclick="handleClose" data-mode="left" inline>关闭抽屉</l-button>
+    </view>
+  </l-drawer>
+
+  <l-drawer show="{{rightShow}}" mode="right">
+    <view class="demo-drawer-content">
+      <l-button bindclick="handleClose" data-mode="right" inline>关闭抽屉</l-button>
+    </view>
+  </l-drawer>
+
+  <l-drawer show="{{topShow}}" mode="top">
+    <view class="demo-drawer-content2">
+      <l-button bindclick="handleClose" data-mode="top" inline>关闭抽屉</l-button>
+    </view>
+  </l-drawer>
+
+  <l-drawer show="{{bottomShow}}" mode="bottom">
+    <view class="demo-drawer-content2">
+      <l-button bindclick="handleClose" data-mode="bottom" inline>关闭抽屉</l-button>
+    </view>
+  </l-drawer>
+
+  <l-drawer show="{{noCloseShow}}" mode="right" maskClosable="{{false}}">
+    <view class="demo-drawer-content">
+      <l-button bindclick="handleClose" data-mode="noClose" inline>关闭抽屉</l-button>
+    </view>
+  </l-drawer>
+</view>

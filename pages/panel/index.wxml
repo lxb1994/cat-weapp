@@ -1,0 +1,5 @@
+<view class="page">
+  <l-panel><view class="panel-content">头部距离为0的Panel</view></l-panel>
+  <l-panel title="我是标题"><view class="panel-content">带有标题的panel</view></l-panel>
+  <l-panel title="我是标题" hideBorder><view class="panel-content">带有标题的无边框的panel</view></l-panel>
+</view>

@@ -1,0 +1,6 @@
+<view
+  class="l-class l-col {{ span ? 'l-col-span-' + span : '' }} {{ offset ? 'l-col-offset-' + offset : '' }}"
+  style="{{ style }}"
+>
+  <slot></slot>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "l-row": "../../components/row/index",
+    "l-col": "../../components/col/index"
+  }
+}

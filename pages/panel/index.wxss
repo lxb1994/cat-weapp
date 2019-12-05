@@ -1,0 +1,4 @@
+.panel-content {
+  padding: 20rpx;
+  font-size: 24rpx;
+}

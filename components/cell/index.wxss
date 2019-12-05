@@ -1,0 +1,63 @@
+.l-cell{
+  position:relative;
+  padding:24rpx 30rpx 24rpx;
+  display:flex;
+  background:#fff;
+  align-items:center;
+  line-height:1.4;
+  font-size:28rpx;
+  overflow:hidden;
+}
+.l-cell::after {
+  display: inline-block;
+  content: '';
+  height: 0rpx;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 30rpx;
+  border-bottom: 1rpx solid #e9eaec;
+  box-sizing: border-box;
+}
+.l-cell-bd{
+  flex:1;
+}
+.l-cell-ft{
+  position:relative;
+  text-align:right;
+  color:#495060;
+}
+.islink .l-cell-ft {
+  padding-right: 26rpx;
+}
+.l-cell-desc{
+  line-height:1.2;
+  font-size:24rpx;
+  color:#80848f;
+}
+.islink .l-cell-ft::after{
+  content:" ";
+  display:inline-block;
+  width:12rpx;
+  height:12rpx;
+  position:absolute;
+  top:50%;
+  right:4rpx;
+  border-width:4rpx 4rpx 0 0;
+  border-color:#dddee1;
+  border-style:solid;
+  transform:translateY(-50%) matrix(.71,.71,-.71,.71,0,0)
+}
+.left-value .l-cell-bd {
+  flex: 0;
+}
+.left-value .l-cell-text {
+  width: 224rpx;
+}
+.left-value .l-cell-ft {
+  text-align: left;
+  flex: 1;
+}
+.is-last.l-cell::after {
+  display: none;
+}

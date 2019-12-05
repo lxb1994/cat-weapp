@@ -1,0 +1,3 @@
+<view class="l-class l-cell-group {{ noBorder ? 'no-border' : '' }}">
+  <slot></slot>
+</view>

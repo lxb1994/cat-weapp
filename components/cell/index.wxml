@@ -1,0 +1,14 @@
+<view class="l-class l-cell {{isLink ? 'islink' : ''}} {{leftValue ? 'left-value' : ''}} {{ isLastCell ? 'is-last' : '' }}" bindtap="handleTap">
+  <view class="l-cell-icon">
+    <slot name="icon"></slot>
+  </view>
+  <view class="l-cell-bd">
+    <view wx:if="{{ title }}" class="l-cell-text">{{ title }}</view>
+    <view wx:if="{{ label }}" class="l-cell-desc">{{ label }}</view>
+    <slot name="footer"></slot>
+  </view>
+  <view class="l-cell-ft">
+    <block wx:if="{{value}}">{{ value }}</block>
+    <slot></slot>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view class="demo-layout">
+  <l-row gutter="20">
+    <l-col span="8"><view class="demo-layout-col">1</view></l-col>
+    <l-col span="8"><view class="demo-layout-col">1</view></l-col>
+    <l-col span="8"><view class="demo-layout-col">1</view></l-col>
+  </l-row>
+  <div style="padding: 10rpx;"></div>
+  <l-row>
+    <l-col span="10"><view class="demo-layout-col">1</view></l-col>
+    <l-col span="6" offset="1"><view class="demo-layout-col">1</view></l-col>
+    <l-col span="6" offset="1"><view class="demo-layout-col">1</view></l-col>
+  </l-row>
+</view>

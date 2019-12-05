@@ -1,0 +1,22 @@
+.l-tab-item {
+  height: 88rpx;
+  line-height: 88rpx;
+  position: relative;
+  font-size: 28rpx;
+  letter-spacing: 2rpx;
+  text-align: center;
+}
+.l-tab-item-bar {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  border-bottom: 4rpx solid #43a1fc;
+}
+.l-tab-item-scroll {
+  min-width: 120rpx;
+  margin: 0 20rpx;
+  display: inline-block;
+}

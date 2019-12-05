@@ -1,0 +1,22 @@
+<button
+  class="l-class l-btn {{ 'l-btn-' + size }} {{ 'l-btn-' + type }} {{inline ? 'l-btn-inline' : ''}} {{'l-btn-' + shape}} {{ wholeLine ? 'l-btn-whole-line' : '' }} {{disabled ? 'l-btn-disabled' : ''}} {{loading ? 'l-btn-loading' : ''}}"
+  hover-class="l-btn-hover"
+  open-type="{{ openType }}"
+  app-parameter="{{ appParameter }}"
+  hover-stop-propagation="{{ hoverStopPropagation }}"
+  hover-start-time="{{ hoverStartTime }}"
+  hover-stay-time="{{ hoverStayTime }}"
+  session-from="{{ sessionFrom }}"
+  send-message-title="{{ sendMessageTitle }}"
+  send-message-path="{{ sendMessagePath }}"
+  send-message-img="{{ sendMessageImg }}"
+  show-message-card="{{ showMessageCard }}"
+  lang="{{lang}}"
+  bindtap="handleTap"
+  bindcontact="bindcontact"
+  bindgetuserinfo="bindgetuserinfo"
+  bindgetphonenumber="bindgetphonenumber"
+  binderror="binderror"
+>
+  <view class="i-btn-loading-inner" wx:if="{{loading}}"></view><slot></slot>
+</button>

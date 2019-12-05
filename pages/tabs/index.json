@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-tab": "../../components/tab/index",
+    "l-tab-item": "../../components/tab-item/index",
+    "l-panel": "../../components/panel/index"
+  }
+}

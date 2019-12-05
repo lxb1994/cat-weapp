@@ -1,0 +1,17 @@
+.demo-drawer-content {
+  width: 60vw;
+  height: 100vh;
+  padding: 30rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.demo-drawer-content2 {
+  width: 100vw;
+  height: 50vh;
+  padding: 30rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.demo-button {
+  margin: 20rpx;
+}

@@ -1,0 +1,52 @@
+.l-input-container {
+  position: relative;
+  display: flex;
+  background: #fff;
+  align-items: center;
+  line-height: 1.4;
+  font-size: 28rpx;
+  overflow: hidden;
+  padding: 24rpx 30rpx;
+  color:#495060;
+}
+.l-input-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid #e9eaec;
+  border-bottom-width: 2rpx;
+  left: 30rpx;
+  bottom: 0;
+}
+.l-left-icon {
+  margin-right: 4rpx;
+}
+.l-right-icon {
+  margin-left: 4rpx;
+}
+.l-input-title {
+  display: flex;
+  align-items: center;
+  width: 200rpx;
+  max-width: 200rpx;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.l-input-placeholder {
+	font-size: 28rpx;
+	color: #d1d1d1;
+}
+.l-input, .l-textarea {
+  flex: 1;
+}
+.l-input-required {
+  color: red;
+  margin-right: 4rpx;
+}

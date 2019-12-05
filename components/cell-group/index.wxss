@@ -1,0 +1,8 @@
+.l-cell-group {
+  background-color: #fff;
+  border: 1rpx solid #e9eaec;
+}
+
+.no-border.l-cell-group {
+  border: 0 none;
+}

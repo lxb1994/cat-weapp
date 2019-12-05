@@ -1,0 +1,16 @@
+<view class="page">
+  <l-panel title="基础">
+    <l-input required title="姓名" placeholder="请输入姓名" maxlength="12"></l-input>
+    <l-input required title="手机号码" placeholder="请输入手机号码" maxlength="11"></l-input>
+    <l-input title="备注" placeholder="请输入备注(最多30字)" maxlength="30"></l-input>
+    <l-input title="禁止输入" placeholder="无法输入无法输入无法输入无法输入无法输入无法输入无法输入无法输入" disabled>
+      <l-icon type="people" size="40" slot="left-icon" />
+    </l-input>
+    <l-input required type="textarea" title="textarea" placeholder="textarea">
+      <l-icon type="enter" size="40" slot="right-icon" />
+    </l-input>
+    <l-input type="number" title="短信验证码" placeholder="请输入短信验证码">
+      <l-button inline size="small" type="success" slot="right-icon">发送验证码</l-button>
+    </l-input>
+  </l-panel>
+</view>

@@ -1,0 +1,112 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.7",
+	"appid": "wxdd18f514bae5d018",
+	"projectname": "little-cat",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 7,
+			"list": [
+				{
+					"id": -1,
+					"name": "按钮",
+					"pathName": "pages/button/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "列表",
+					"pathName": "pages/cell/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "面板",
+					"pathName": "pages/panel/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "icon图标",
+					"pathName": "pages/icon/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "标签栏",
+					"pathName": "pages/tabs/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "抽屉",
+					"pathName": "pages/drawer/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "输入框",
+					"pathName": "pages/input/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "多选框",
+					"pathName": "pages/checkbox/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
